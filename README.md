@@ -1,1 +1,1 @@
-# pythoncodes
+This is a simple mini project made by importing the module of qr code generator.I have used this to generate qr code for all platforms gpay,phonepe or paytm.User will input the upi id where the money has to be transferred and qr code will be genrated in image form where transaction is proceeded.
