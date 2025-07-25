@@ -1,4 +1,32 @@
-this is a techniquee of random forest that i used to get which has the best wine quality using random forest technique
-I have also used grdsearchCV to do hyperparameter tuning to get bettwr results then I used streamlit for hosting the data and deployed it on render
-It is deployed on streamlit on the link:
-[https://pythoncodes-kdfad3qyt6xvzpzxj9ez2c.streamlit.app/](url)
+# 🍷 Wine Quality Prediction
+
+This project predicts the quality of wine based on physicochemical tests using a **Random Forest Classifier**. It achieves **~95% test accuracy** after applying **hyperparameter tuning** with `GridSearchCV`. The trained model is deployed using **Streamlit**, offering an interactive and user-friendly interface.
+
+🔗 **Live App**: [Wine Quality Prediction](https://pythoncodes-kdfad3qyt6xvzpzxj9ez2c.streamlit.app/)
+
+---
+
+## 📌 Features
+
+- Predict wine quality using Random Forest
+- Hyperparameter optimization with GridSearchCV
+- Clean UI with Streamlit
+- Ready for deployment and customization
+
+---
+
+## 📊 Model Performance
+
+- **Model**: RandomForestClassifier  
+- **Tuning**: GridSearchCV with cross-validation  
+- **Test Accuracy**: ~95%
+
+---
+
+## 🧠 Techniques Used
+
+- Random Forest Classifier
+- GridSearchCV for hyperparameter tuning
+- StandardScaler for feature scaling
+- Train-test split for model evaluation
+
